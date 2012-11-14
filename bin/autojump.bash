@@ -77,5 +77,5 @@ function j {
         echo "Try \`autojump --help\` for more information."
         false
     fi
-    ls -CF
+    ls --color=auto -p
 }
